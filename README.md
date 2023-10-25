@@ -1,0 +1,1 @@
+"PlanetWise Trivia" is an interactive quiz app that invites users to explore the world of sustainable living and responsible consumption and production. This educational journey unfolds through a series of engaging questions, testing your eco-awareness and knowledge about making conscious choices.
