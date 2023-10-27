@@ -233,12 +233,14 @@ function startTimer(time) {
 }
 
 function startTimerLine(time) {
-  counterLine = setInterval(timer, 29);
+  counterLine = setInterval(timer, 1000);
+  const header = document.querySelector(".quiz_header");
+  let increase = header.offsetWidth/(timeValue+1)
   function timer() {
-    time += 1; //upgrading time value with 1
+    time += increase; //upgrading time value at the same interval the time increases
     time_line.style.width = time + "px"; //increasing width of time_line with px by time value
-    if (time > 549) {
-      //if time value is greater than 549
+    if (time == header.offsetWidth) {
+      //if time value is greater than the header width
       clearInterval(counterLine); //clear counterLine
     }
   }
