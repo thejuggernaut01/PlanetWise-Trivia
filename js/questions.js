@@ -60,66 +60,6 @@ let questions = [
       "Importing clothes from far-off countries",
     ],
   },
-  {
-    numb: 6,
-    question: "What does 'fast fashion' refer to?",
-    answer:
-      "Mass production of inexpensive clothing designed for short-term use",
-    options: [
-      "Sustainable and slow clothing production",
-      "Custom-made clothing for long-term use",
-      "Mass production of expensive clothing",
-      "Mass production of inexpensive clothing designed for short-term use",
-    ],
-  },
-  {
-    numb: 7,
-    question: "How can individuals reduce food waste at home?",
-    answer: "Plan meals, use leftovers, and compost food scraps",
-    options: [
-      "Purchase excess food to prevent running out",
-      "Throw all food scraps in the trash",
-      "Plan meals, use leftovers, and compost food scraps",
-      "Avoid cooking at home",
-    ],
-  },
-  {
-    numb: 8,
-    question:
-      "What is the impact of electronic waste (e-waste) on the environment?",
-    answer: "Toxic chemicals can leach into the soil and water",
-    options: [
-      "E-waste has no environmental impact",
-      "It naturally biodegrades over time",
-      "It reduces greenhouse gas emissions",
-      "Toxic chemicals can leach into the soil and water",
-    ],
-  },
-  {
-    numb: 9,
-    question:
-      "Why is it important to support companies with sustainable supply chains?",
-    answer:
-      "To encourage responsible production and reduce environmental impact",
-    options: [
-      "To increase product prices",
-      "To avoid supporting any businesses",
-      "To encourage responsible production and reduce environmental impact",
-      "To promote excessive consumption",
-    ],
-  },
-  {
-    numb: 10,
-    question:
-      "Which of the following practices promotes responsible consumption?",
-    answer: "Repairing and maintaining products to extend their lifespan",
-    options: [
-      "Discarding products after a single use",
-      "Frequently buying the latest gadgets",
-      "Repairing and maintaining products to extend their lifespan",
-      "Hoarding unused items",
-    ],
-  },
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
