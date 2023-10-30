@@ -414,14 +414,41 @@ footer button.show {
   display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media (min-width: 320px)  and (max-width:430px){
   .planet-trivia {
     font-size: 10px;
     margin: 15px;
   }
-
+  .result_box{
+    width: 90%;
+  }
+  .score_text p{
+    display: inline-block;
+  }
+  .quiz_box{
+    width: 90%;
+    margin: auto;
+    display: inline-block;
+    height: auto;
+  }
+  section{
+    padding: 10px;
+  }
+  section .que_text{
+    font-size: 18px;
+  }
+  section .option_list .option {
+    font-size: 14px;
+  }
   .info_box {
-    width: 320px;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .total_que{
+    font-size: 14px;
+  }
+  footer button{
+    font-size: 16px;
   }
 }
 
@@ -429,8 +456,13 @@ footer button.show {
   .planet-trivia {
     font-size: 16px;
     margin: 30px;
+    display: inline-block;
   }
-
+  .quiz_box{
+    width: 70%;
+    margin: 0px auto;
+    display: inline-block;
+  }
   .info_box {
     width: 520px;
   }
